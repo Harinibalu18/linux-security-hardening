@@ -1,0 +1,10 @@
+[DEFAULT]
+bantime = 24h
+findtime = 10m
+maxretry = 5
+
+[sshd]
+enabled = true
+port = 2222
+filter = sshd
+logpath = /var/log/auth.log
