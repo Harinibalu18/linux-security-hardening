@@ -1,0 +1,4 @@
+sudo ufw allow 2222/tcp
+sudo ufw allow 80/tcp
+sudo ufw allow 443/tcp
+sudo ufw deny 23/tcp
